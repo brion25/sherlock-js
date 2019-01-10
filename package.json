@@ -2,7 +2,7 @@
   "name": "sherlock-js",
   "version": "0.0.1",
   "description": "Find usernames across social networks",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,8 +21,12 @@
   },
   "homepage": "https://github.com/brion25/sherlock-js#readme",
   "dependencies": {
+    "ascii-table": "0.0.9",
     "axios": "^0.18.0",
     "chalk": "^2.4.2",
+    "csv-stringify": "^5.1.2",
+    "lodash": "^4.17.11",
+    "progress": "^2.0.3",
     "yargs": "^12.0.5"
   }
 }
